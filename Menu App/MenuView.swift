@@ -14,7 +14,7 @@ struct MenuView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Dumto!")
         }
         .padding()
     }
