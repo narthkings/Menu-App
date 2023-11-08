@@ -7,11 +7,9 @@
 
 import Foundation
  
-struct MenuItem {
+struct MenuItem: Identifiable {
+    var id: UUID = UUID()
     var name: String
     var price: String
     var imageName: String
 }
-
-var firstItem: MenuItem = MenuItem(name: "Dumto", price: "#100", imageName: "onigiri") //how to create an instance
-var secondItem: MenuItem =  MenuItem(name: "Jaston", price: "$200", imageName: "meguro-sushi")
